@@ -1,0 +1,116 @@
+	body { margin: 0; padding: 0; }
+	#mapita { 
+		position: absolute; 
+		top: 50%;
+		bottom: 20px; 
+		right: 30px;
+		width: 50%; }
+	#maparuta { 
+		position: absolute; 
+		top: 50%; 
+		bottom: 20px; 
+		right: 30px;
+		width: 50%; }
+.autocomplete-container {
+  /*the container must be positioned relative:*/
+  position: relative;
+  
+  margin-bottom: 20px;
+}
+
+.autocomplete-container input {
+  width: calc(100% - 43px);
+  outline: none;
+  
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  background-color: #e9f2eb;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.1);
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: calc(100% + 2px);
+  left: 0;
+  right: 0;
+  
+  background-color: #fff;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.autocomplete-items .autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.clear-button {
+  color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  
+  position: absolute;
+  right: 5px;
+  top: 0;
+
+  height: 100%;
+  display: none;
+  align-items: center;
+}
+
+.clear-button.visible {
+  display: flex;
+}
+
+
+.clear-button:hover {
+  color: rgba(0, 0, 0, 0.6);
+}	
+
+.header-label{
+	margin: 0 auto;
+}
+
+.header-label-color{
+	color: #fff;
+	font-size: 32px;
+	font-weight: bold;
+}
+.img-activity{
+	margin-left: 8%;
+}
+
+.img-container{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.selected-icon{
+	background-color: rgb(199, 219, 236);
+}
+
+.alert-warning{
+	width: 50%;
+margin: 0 auto;
+}
+
+.btn-success{
+	margin-left: 46%;
+}
+
+.card{
+	margin-left: 10px;
+}
